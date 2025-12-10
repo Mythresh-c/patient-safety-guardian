@@ -76,5 +76,9 @@ Deterministic rules run alongside ML models to catch critical conditions like:
 -   `evidence/`: Logs, reports, and evaluation metrics.
 -   `tests/`: Unit tests.
 
+## 🚀 Deployment
+
+See [DEPLOY.md](DEPLOY.md) for instructions on deploying to Streamlit Cloud or Docker.
+
 ## ⚠️ Disclaimer
 This is a simulation for educational purposes only. Not for clinical use.

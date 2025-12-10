@@ -31,3 +31,7 @@ timestamp,patient_id,priority,reason,assigned_to,team,escalated_by
 2025-12-10T13:11:31.508769,P00007,High,High deterioration risk detected.; Clinical Rule Alert Triggered,Dr. Patel,Critical Care,System
 2025-12-10T13:11:31.519996,P00008,Low,Critical symptoms reported.,Routine Queue,General Ward,System
 2025-12-10T13:11:31.530536,P00009,Low,Critical symptoms reported.,Routine Queue,General Ward,System
+2025-12-10T13:21:43.606323,P00001,High,Clinical Rule Alert Triggered,Dr. Breath,Respiratory,System
+2025-12-10T13:26:17.297444,P00000,Low,,Routine Queue,General Ward,System
+2025-12-10T13:26:27.295704,P00002,Critical,High deterioration risk detected.; Significant medication interactions found.,Dr. Breath,Respiratory,System
+2025-12-10T13:44:42.926117,P00002,Critical,High deterioration risk detected.; Significant medication interactions found.,Dr. Breath,Respiratory,System

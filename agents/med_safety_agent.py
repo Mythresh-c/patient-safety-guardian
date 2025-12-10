@@ -1,5 +1,5 @@
 import pandas as pd
-import Levenshtein
+from rapidfuzz import fuzz
 import datetime
 import os
 
@@ -42,14 +42,14 @@ class MedicationSafetyAgent:
             for known in known_drugs:
                 if med.lower() == known.lower():
                     best_match = known
-                    best_ratio = 1.0
+                    best_ratio = 100.0
                     break
             
             # Fuzzy match
             if not best_match:
                 for known in known_drugs:
-                    ratio = Levenshtein.ratio(med.lower(), known.lower())
-                    if ratio > 0.7:
+                    ratio = fuzz.ratio(med.lower(), known.lower())
+                    if ratio > 70: # Threshold 70/100
                         if ratio > best_ratio:
                             best_ratio = ratio
                             best_match = known

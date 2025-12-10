@@ -1,0 +1,22 @@
+{
+    "symptom_out": {
+        "symptoms": [
+            "back pain"
+        ],
+        "medications_mentioned": []
+    },
+    "med_out": {
+        "interactions": [],
+        "severity_score": 0.0
+    },
+    "risk_out": {
+        "risk_score": 0.05,
+        "risk_level": "Low"
+    },
+    "priority_out": {
+        "priority": "Low",
+        "score": 0.07,
+        "reasons": []
+    },
+    "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00000\nTimestamp: 2025-12-10T11:09:16.326689\n\nSummary:\nThe patient presents with back pain. \nRisk Assessment: Low risk of deterioration (Score: 0.05).\nPriority Level: Low\n\nMedication Safety:\nNo significant medication interactions detected.\n\nClinical Recommendation:\nContinue routine monitoring.\n"
+}

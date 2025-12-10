@@ -1,0 +1,312 @@
+[
+    {
+        "patient_id": "P00000",
+        "symptoms": [
+            "abdominal pain"
+        ],
+        "medications_mentioned": [
+            "Losartan"
+        ],
+        "interactions": [],
+        "risk_score": 0.09481844544064207,
+        "risk_level": "Low",
+        "priority": "Low",
+        "routing": {
+            "assigned_to": "Routine Queue",
+            "team": "General Ward",
+            "escalated": false,
+            "action": "Routine Monitoring",
+            "reason": "Priority: Low. Internal Medicine indicated."
+        },
+        "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00000\nTimestamp: 2025-12-10T11:08:08.584218\n\nSummary:\nThe patient presents with abdominal pain. \nRisk Assessment: Low risk of deterioration (Score: 0.09).\nPriority Level: Low\n\nMedication Safety:\nNo significant medication interactions detected.\n\nClinical Recommendation:\nContinue routine monitoring.\n",
+        "alerts": []
+    },
+    {
+        "patient_id": "P00001",
+        "symptoms": [
+            "abdominal pain"
+        ],
+        "medications_mentioned": [
+            "Midazolam",
+            "Phenytoin",
+            "Propranolol"
+        ],
+        "interactions": [],
+        "risk_score": 0.2145445095432931,
+        "risk_level": "Low",
+        "priority": "High",
+        "routing": {
+            "assigned_to": "Dr. Breath",
+            "team": "Respiratory",
+            "escalated": true,
+            "action": "Immediate Review",
+            "reason": "Priority: High. Respiratory indicated."
+        },
+        "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00001\nTimestamp: 2025-12-10T11:08:08.584218\n\nSummary:\nThe patient presents with abdominal pain. \nRisk Assessment: Low risk of deterioration (Score: 0.21).\nPriority Level: High\n\nMedication Safety:\nNo significant medication interactions detected.\n\nClinical Recommendation:\nUrgent review recommended. Monitor for deterioration.\n\nAssigned to Dr. Breath (Respiratory) \u2014 Action: Immediate Review",
+        "alerts": [
+            {
+                "code": "DESATURATION",
+                "severity": "High",
+                "rationale": "SpO2 93% requires monitoring."
+            }
+        ]
+    },
+    {
+        "patient_id": "P00002",
+        "symptoms": [
+            "palpitations"
+        ],
+        "medications_mentioned": [
+            "Propranolol",
+            "Gentamicin",
+            "Albuterol",
+            "Atorvastatin",
+            "Clarithromycin"
+        ],
+        "interactions": [
+            {
+                "pair": [
+                    "propranolol",
+                    "albuterol"
+                ],
+                "severity": "Medium",
+                "mechanism": "Pharmacodynamic",
+                "explanation": "Non-selective beta-blockers antagonize bronchodilation.",
+                "recommended_action": "Use cardioselective beta-blocker if needed",
+                "source": "medicinal-guideline"
+            },
+            {
+                "pair": [
+                    "atorvastatin",
+                    "clarithromycin"
+                ],
+                "severity": "High",
+                "mechanism": "Metabolism",
+                "explanation": "Increased rhabdomyolysis risk due to CYP3A4 inhibition.",
+                "recommended_action": "Stop statin during macrolide course",
+                "source": "medicinal-guideline"
+            }
+        ],
+        "risk_score": 0.9085740624149535,
+        "risk_level": "High",
+        "priority": "Critical",
+        "routing": {
+            "assigned_to": "Dr. Lung",
+            "team": "Respiratory",
+            "escalated": true,
+            "action": "Immediate Review",
+            "reason": "Priority: Critical. Respiratory indicated."
+        },
+        "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00002\nTimestamp: 2025-12-10T11:08:08.584218\n\nSummary:\nThe patient presents with palpitations. \nRisk Assessment: High risk of deterioration (Score: 0.91).\nPriority Level: Critical\n\nMedication Safety:\nDetected 2 interaction(s). \n- propranolol + albuterol: Medium severity. Non-selective beta-blockers antagonize bronchodilation.\n- atorvastatin + clarithromycin: High severity. Increased rhabdomyolysis risk due to CYP3A4 inhibition.\n\nClinical Recommendation:\nIMMEDIATE CLINICAL REVIEW REQUIRED. Assess vitals and review medication list.\n\nAssigned to Dr. Lung (Respiratory) \u2014 Action: Immediate Review",
+        "alerts": [
+            {
+                "code": "HYPOXEMIA",
+                "severity": "Critical",
+                "rationale": "SpO2 86% indicates respiratory failure."
+            }
+        ]
+    },
+    {
+        "patient_id": "P00003",
+        "symptoms": [
+            "rash"
+        ],
+        "medications_mentioned": [
+            "Amlodipine",
+            "Warfarin",
+            "Trimethoprim-Sulfamethoxazole"
+        ],
+        "interactions": [
+            {
+                "pair": [
+                    "warfarin",
+                    "trimethoprim-sulfamethoxazole"
+                ],
+                "severity": "High",
+                "mechanism": "Metabolism",
+                "explanation": "Significant increase in INR and bleeding risk.",
+                "recommended_action": "Monitor INR; reduce warfarin dose",
+                "source": "medicinal-guideline"
+            }
+        ],
+        "risk_score": 0.03310728876963017,
+        "risk_level": "Low",
+        "priority": "Low",
+        "routing": {
+            "assigned_to": "Routine Queue",
+            "team": "General Ward",
+            "escalated": false,
+            "action": "Routine Monitoring",
+            "reason": "Priority: Low. Internal Medicine indicated."
+        },
+        "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00003\nTimestamp: 2025-12-10T11:08:08.584218\n\nSummary:\nThe patient presents with rash. \nRisk Assessment: Low risk of deterioration (Score: 0.03).\nPriority Level: Low\n\nMedication Safety:\nDetected 1 interaction(s). \n- warfarin + trimethoprim-sulfamethoxazole: High severity. Significant increase in INR and bleeding risk.\n\nClinical Recommendation:\nContinue routine monitoring.\n",
+        "alerts": []
+    },
+    {
+        "patient_id": "P00004",
+        "symptoms": [
+            "shortness of breath"
+        ],
+        "medications_mentioned": [
+            "Trimethoprim",
+            "Spironolactone",
+            "Warfarin"
+        ],
+        "interactions": [],
+        "risk_score": 0.03576154995129673,
+        "risk_level": "Low",
+        "priority": "Low",
+        "routing": {
+            "assigned_to": "Routine Queue",
+            "team": "General Ward",
+            "escalated": false,
+            "action": "Routine Monitoring",
+            "reason": "Priority: Low. Internal Medicine indicated."
+        },
+        "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00004\nTimestamp: 2025-12-10T11:08:08.584218\n\nSummary:\nThe patient presents with shortness of breath. \nRisk Assessment: Low risk of deterioration (Score: 0.04).\nPriority Level: Low\n\nMedication Safety:\nNo significant medication interactions detected.\n\nClinical Recommendation:\nContinue routine monitoring.\n",
+        "alerts": []
+    },
+    {
+        "patient_id": "P00005",
+        "symptoms": [
+            "cough"
+        ],
+        "medications_mentioned": [
+            "Trimethoprim",
+            "Ibuprofen"
+        ],
+        "interactions": [],
+        "risk_score": 0.1655884058393684,
+        "risk_level": "Low",
+        "priority": "Low",
+        "routing": {
+            "assigned_to": "Routine Queue",
+            "team": "General Ward",
+            "escalated": false,
+            "action": "Routine Monitoring",
+            "reason": "Priority: Low. Internal Medicine indicated."
+        },
+        "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00005\nTimestamp: 2025-12-10T11:08:08.584218\n\nSummary:\nThe patient presents with cough. \nRisk Assessment: Low risk of deterioration (Score: 0.17).\nPriority Level: Low\n\nMedication Safety:\nNo significant medication interactions detected.\n\nClinical Recommendation:\nContinue routine monitoring.\n",
+        "alerts": []
+    },
+    {
+        "patient_id": "P00006",
+        "symptoms": [
+            "rash",
+            "fatigue",
+            "dizziness",
+            "nausea",
+            "shortness of breath"
+        ],
+        "medications_mentioned": [
+            "Vancomycin",
+            "Azathioprine",
+            "Ciprofloxacin",
+            "Sildenafil",
+            "Nitroglycerin"
+        ],
+        "interactions": [
+            {
+                "pair": [
+                    "sildenafil",
+                    "nitroglycerin"
+                ],
+                "severity": "Critical",
+                "mechanism": "Hypotension",
+                "explanation": "Severe refractory hypotension due to additive vasodilation.",
+                "recommended_action": "Contraindicated; do not administer nitrates within 24h of sildenafil",
+                "source": "FDA"
+            }
+        ],
+        "risk_score": 0.1769204261035533,
+        "risk_level": "Low",
+        "priority": "Medium",
+        "routing": {
+            "assigned_to": "Routine Queue",
+            "team": "General Ward",
+            "escalated": false,
+            "action": "Routine Monitoring",
+            "reason": "Priority: Medium. Internal Medicine indicated."
+        },
+        "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00006\nTimestamp: 2025-12-10T11:08:08.584218\n\nSummary:\nThe patient presents with rash, fatigue, dizziness, nausea, shortness of breath. \nRisk Assessment: Low risk of deterioration (Score: 0.18).\nPriority Level: Medium\n\nMedication Safety:\nDetected 1 interaction(s). \n- sildenafil + nitroglycerin: Critical severity. Severe refractory hypotension due to additive vasodilation.\n\nClinical Recommendation:\nReview within 4 hours. Check medication interactions.\n",
+        "alerts": []
+    },
+    {
+        "patient_id": "P00007",
+        "symptoms": [
+            "cough"
+        ],
+        "medications_mentioned": [
+            "Dabigatran"
+        ],
+        "interactions": [],
+        "risk_score": 0.7023909997782412,
+        "risk_level": "High",
+        "priority": "High",
+        "routing": {
+            "assigned_to": "Dr. Patel",
+            "team": "Critical Care",
+            "escalated": true,
+            "action": "Immediate Review",
+            "reason": "Priority: High. Critical Care indicated."
+        },
+        "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00007\nTimestamp: 2025-12-10T11:08:08.584218\n\nSummary:\nThe patient presents with cough. \nRisk Assessment: High risk of deterioration (Score: 0.70).\nPriority Level: High\n\nMedication Safety:\nNo significant medication interactions detected.\n\nClinical Recommendation:\nUrgent review recommended. Monitor for deterioration.\n\nAssigned to Dr. Patel (Critical Care) \u2014 Action: Immediate Review",
+        "alerts": [
+            {
+                "code": "SEPSIS_SIRS",
+                "severity": "High",
+                "rationale": "SIRS criteria met (Temp 36.9, HR 95, RR 21). Monitor for sepsis."
+            }
+        ]
+    },
+    {
+        "patient_id": "P00008",
+        "symptoms": [
+            "shortness of breath"
+        ],
+        "medications_mentioned": [
+            "Ciprofloxacin",
+            "Valproic Acid",
+            "Pantoprazole"
+        ],
+        "interactions": [],
+        "risk_score": 0.028358183775024946,
+        "risk_level": "Low",
+        "priority": "Low",
+        "routing": {
+            "assigned_to": "Routine Queue",
+            "team": "General Ward",
+            "escalated": false,
+            "action": "Routine Monitoring",
+            "reason": "Priority: Low. Internal Medicine indicated."
+        },
+        "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00008\nTimestamp: 2025-12-10T11:08:08.584218\n\nSummary:\nThe patient presents with shortness of breath. \nRisk Assessment: Low risk of deterioration (Score: 0.03).\nPriority Level: Low\n\nMedication Safety:\nNo significant medication interactions detected.\n\nClinical Recommendation:\nContinue routine monitoring.\n",
+        "alerts": []
+    },
+    {
+        "patient_id": "P00009",
+        "symptoms": [
+            "cough",
+            "chest pain",
+            "back pain"
+        ],
+        "medications_mentioned": [
+            "Fluconazole",
+            "Phenelzine",
+            "Levothyroxine"
+        ],
+        "interactions": [],
+        "risk_score": 0.13507322365189978,
+        "risk_level": "Low",
+        "priority": "Low",
+        "routing": {
+            "assigned_to": "Routine Queue",
+            "team": "General Ward",
+            "escalated": false,
+            "action": "Routine Monitoring",
+            "reason": "Priority: Low. Internal Medicine indicated."
+        },
+        "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00009\nTimestamp: 2025-12-10T11:08:08.584218\n\nSummary:\nThe patient presents with cough, chest pain, back pain. \nRisk Assessment: Low risk of deterioration (Score: 0.14).\nPriority Level: Low\n\nMedication Safety:\nNo significant medication interactions detected.\n\nClinical Recommendation:\nContinue routine monitoring.\n",
+        "alerts": []
+    }
+]

@@ -1,0 +1,72 @@
+--- 2025-12-10T11:51:03.608999 ---
+Input: ['Warfarin', 'Pantoprazole']
+Canonical: ['Warfarin -> Warfarin (1.00)', 'Pantoprazole -> Omeprazole (0.73)']
+Matches: []
+Severity: 0.0
+
+--- 2025-12-10T11:51:03.616484 ---
+Input: ['Aspirin', 'Losartan', 'Atorvastatin', 'Metoprolol']
+Canonical: ['Aspirin -> Aspirin (1.00)', 'Losartan -> Losartan (No match)', 'Atorvastatin -> Atorvastatin (No match)', 'Metoprolol -> Metoprolol (No match)']
+Matches: []
+Severity: 0.0
+
+--- 2025-12-10T11:51:03.628072 ---
+Input: ['Amoxicillin', 'Paracetamol']
+Canonical: ['Amoxicillin -> Amoxicillin (No match)', 'Paracetamol -> Paracetamol (No match)']
+Matches: []
+Severity: 0.0
+
+--- 2025-12-10T11:51:03.636283 ---
+Input: ['Paracetamol', 'Losartan', 'Simvastatin']
+Canonical: ['Paracetamol -> Paracetamol (No match)', 'Losartan -> Losartan (No match)', 'Simvastatin -> Simvastatin (1.00)']
+Matches: []
+Severity: 0.0
+
+--- 2025-12-10T11:51:03.645010 ---
+Input: ['Clopidogrel', 'Albuterol', 'Omeprazole']
+Canonical: ['Clopidogrel -> Clopidogrel (1.00)', 'Albuterol -> Albuterol (1.00)', 'Omeprazole -> Omeprazole (1.00)']
+Matches: ['Clopidogrel + Omeprazole: Medium']
+Severity: 0.5
+
+--- 2025-12-10T11:51:03.653097 ---
+Input: ['Clopidogrel', 'Losartan', 'Warfarin']
+Canonical: ['Clopidogrel -> Clopidogrel (1.00)', 'Losartan -> Losartan (No match)', 'Warfarin -> Warfarin (1.00)']
+Matches: []
+Severity: 0.0
+
+--- 2025-12-10T11:51:03.662714 ---
+Input: ['Albuterol', 'Metformin', 'Clopidogrel']
+Canonical: ['Albuterol -> Albuterol (1.00)', 'Metformin -> Metformin (1.00)', 'Clopidogrel -> Clopidogrel (1.00)']
+Matches: []
+Severity: 0.0
+
+--- 2025-12-10T11:51:03.669804 ---
+Input: ['Paracetamol', 'Ibuprofen', 'Amoxicillin']
+Canonical: ['Paracetamol -> Paracetamol (No match)', 'Ibuprofen -> Ibuprofen (1.00)', 'Amoxicillin -> Amoxicillin (No match)']
+Matches: []
+Severity: 0.0
+
+--- 2025-12-10T11:51:03.677419 ---
+Input: ['Amoxicillin', 'Losartan', 'Clopidogrel', 'Levothyroxine', 'Pantoprazole']
+Canonical: ['Amoxicillin -> Amoxicillin (No match)', 'Losartan -> Losartan (No match)', 'Clopidogrel -> Clopidogrel (1.00)', 'Levothyroxine -> Levothyroxine (1.00)', 'Pantoprazole -> Omeprazole (0.73)']
+Matches: ['Clopidogrel + Omeprazole: Medium']
+Severity: 0.5
+
+--- 2025-12-10T11:51:03.686857 ---
+Input: ['Atorvastatin', 'Metformin', 'Omeprazole', 'Lisinopril']
+Canonical: ['Atorvastatin -> Atorvastatin (No match)', 'Metformin -> Metformin (1.00)', 'Omeprazole -> Omeprazole (1.00)', 'Lisinopril -> Lisinopril (1.00)']
+Matches: []
+Severity: 0.0
+
+--- 2025-12-10T11:51:13.312908 ---
+Input: ['Warfarin', 'Pantoprazole']
+Canonical: ['Warfarin -> Warfarin (1.00)', 'Pantoprazole -> Omeprazole (0.73)']
+Matches: []
+Severity: 0.0
+
+--- 2025-12-10T11:51:38.035406 ---
+Input: ['Aspirin', 'Losartan', 'Atorvastatin', 'Metoprolol']
+Canonical: ['Aspirin -> Aspirin (1.00)', 'Losartan -> Losartan (No match)', 'Atorvastatin -> Atorvastatin (No match)', 'Metoprolol -> Metoprolol (No match)']
+Matches: []
+Severity: 0.0
+

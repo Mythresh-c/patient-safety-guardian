@@ -1,0 +1,188 @@
+[
+    {
+        "patient_id": "P00000",
+        "symptoms": [
+            "back pain"
+        ],
+        "medications_mentioned": [
+            "Warfarin",
+            "Pantoprazole"
+        ],
+        "interactions": [],
+        "risk_score": 0.0,
+        "risk_level": "Unknown (Model Not Loaded)",
+        "priority": "Low",
+        "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00000\nTimestamp: 2025-12-10T11:09:16.326689\n\nSummary:\nThe patient presents with back pain. \nRisk Assessment: Unknown (Model Not Loaded) risk of deterioration (Score: 0.00).\nPriority Level: Low\n\nMedication Safety:\nNo significant medication interactions detected.\n\nClinical Recommendation:\nContinue routine monitoring.\n"
+    },
+    {
+        "patient_id": "P00001",
+        "symptoms": [
+            "cough",
+            "headache"
+        ],
+        "medications_mentioned": [
+            "Aspirin",
+            "Losartan",
+            "Atorvastatin",
+            "Metoprolol"
+        ],
+        "interactions": [],
+        "risk_score": 0.0,
+        "risk_level": "Unknown (Model Not Loaded)",
+        "priority": "Low",
+        "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00001\nTimestamp: 2025-12-10T11:09:16.327685\n\nSummary:\nThe patient presents with cough, headache. \nRisk Assessment: Unknown (Model Not Loaded) risk of deterioration (Score: 0.00).\nPriority Level: Low\n\nMedication Safety:\nNo significant medication interactions detected.\n\nClinical Recommendation:\nContinue routine monitoring.\n"
+    },
+    {
+        "patient_id": "P00002",
+        "symptoms": [
+            "fever",
+            "headache",
+            "rash"
+        ],
+        "medications_mentioned": [
+            "Amoxicillin",
+            "Paracetamol"
+        ],
+        "interactions": [],
+        "risk_score": 0.0,
+        "risk_level": "Unknown (Model Not Loaded)",
+        "priority": "Low",
+        "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00002\nTimestamp: 2025-12-10T11:09:16.327685\n\nSummary:\nThe patient presents with fever, headache, rash. \nRisk Assessment: Unknown (Model Not Loaded) risk of deterioration (Score: 0.00).\nPriority Level: Low\n\nMedication Safety:\nNo significant medication interactions detected.\n\nClinical Recommendation:\nContinue routine monitoring.\n"
+    },
+    {
+        "patient_id": "P00003",
+        "symptoms": [
+            "confusion"
+        ],
+        "medications_mentioned": [
+            "Paracetamol",
+            "Losartan",
+            "Simvastatin"
+        ],
+        "interactions": [],
+        "risk_score": 0.0,
+        "risk_level": "Unknown (Model Not Loaded)",
+        "priority": "Low",
+        "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00003\nTimestamp: 2025-12-10T11:09:16.327685\n\nSummary:\nThe patient presents with confusion. \nRisk Assessment: Unknown (Model Not Loaded) risk of deterioration (Score: 0.00).\nPriority Level: Low\n\nMedication Safety:\nNo significant medication interactions detected.\n\nClinical Recommendation:\nContinue routine monitoring.\n"
+    },
+    {
+        "patient_id": "P00004",
+        "symptoms": [
+            "swelling",
+            "shortness of breath"
+        ],
+        "medications_mentioned": [
+            "Clopidogrel",
+            "Albuterol",
+            "Omeprazole"
+        ],
+        "interactions": [
+            {
+                "pair": [
+                    "Clopidogrel",
+                    "Omeprazole"
+                ],
+                "severity": "Medium",
+                "explanation": "Reduced antiplatelet effect of Clopidogrel.",
+                "recommended_action": "Use Pantoprazole instead."
+            }
+        ],
+        "risk_score": 0.0,
+        "risk_level": "Unknown (Model Not Loaded)",
+        "priority": "Low",
+        "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00004\nTimestamp: 2025-12-10T11:09:16.327685\n\nSummary:\nThe patient presents with swelling, shortness of breath. \nRisk Assessment: Unknown (Model Not Loaded) risk of deterioration (Score: 0.00).\nPriority Level: Low\n\nMedication Safety:\nDetected 1 interaction(s). \n- Clopidogrel + Omeprazole: Medium severity. Reduced antiplatelet effect of Clopidogrel.\n\nClinical Recommendation:\nContinue routine monitoring.\n"
+    },
+    {
+        "patient_id": "P00005",
+        "symptoms": [
+            "fever",
+            "palpitations"
+        ],
+        "medications_mentioned": [
+            "Clopidogrel",
+            "Losartan",
+            "Warfarin"
+        ],
+        "interactions": [],
+        "risk_score": 0.0,
+        "risk_level": "Unknown (Model Not Loaded)",
+        "priority": "Low",
+        "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00005\nTimestamp: 2025-12-10T11:09:16.327685\n\nSummary:\nThe patient presents with fever, palpitations. \nRisk Assessment: Unknown (Model Not Loaded) risk of deterioration (Score: 0.00).\nPriority Level: Low\n\nMedication Safety:\nNo significant medication interactions detected.\n\nClinical Recommendation:\nContinue routine monitoring.\n"
+    },
+    {
+        "patient_id": "P00006",
+        "symptoms": [
+            "headache",
+            "abdominal pain",
+            "palpitations"
+        ],
+        "medications_mentioned": [
+            "Albuterol",
+            "Metformin",
+            "Clopidogrel"
+        ],
+        "interactions": [],
+        "risk_score": 0.0,
+        "risk_level": "Unknown (Model Not Loaded)",
+        "priority": "Low",
+        "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00006\nTimestamp: 2025-12-10T11:09:16.327685\n\nSummary:\nThe patient presents with headache, abdominal pain, palpitations. \nRisk Assessment: Unknown (Model Not Loaded) risk of deterioration (Score: 0.00).\nPriority Level: Low\n\nMedication Safety:\nNo significant medication interactions detected.\n\nClinical Recommendation:\nContinue routine monitoring.\n"
+    },
+    {
+        "patient_id": "P00007",
+        "symptoms": [
+            "fever",
+            "cough",
+            "headache",
+            "nausea"
+        ],
+        "medications_mentioned": [
+            "Paracetamol",
+            "Ibuprofen",
+            "Amoxicillin"
+        ],
+        "interactions": [],
+        "risk_score": 0.0,
+        "risk_level": "Unknown (Model Not Loaded)",
+        "priority": "Low",
+        "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00007\nTimestamp: 2025-12-10T11:09:16.327685\n\nSummary:\nThe patient presents with fever, cough, headache, nausea. \nRisk Assessment: Unknown (Model Not Loaded) risk of deterioration (Score: 0.00).\nPriority Level: Low\n\nMedication Safety:\nNo significant medication interactions detected.\n\nClinical Recommendation:\nContinue routine monitoring.\n"
+    },
+    {
+        "patient_id": "P00008",
+        "symptoms": [
+            "swelling",
+            "cough",
+            "chest pain"
+        ],
+        "medications_mentioned": [
+            "Amoxicillin",
+            "Losartan",
+            "Clopidogrel",
+            "Levothyroxine",
+            "Pantoprazole"
+        ],
+        "interactions": [],
+        "risk_score": 0.0,
+        "risk_level": "Unknown (Model Not Loaded)",
+        "priority": "Low",
+        "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00008\nTimestamp: 2025-12-10T11:09:16.327685\n\nSummary:\nThe patient presents with swelling, cough, chest pain. \nRisk Assessment: Unknown (Model Not Loaded) risk of deterioration (Score: 0.00).\nPriority Level: Low\n\nMedication Safety:\nNo significant medication interactions detected.\n\nClinical Recommendation:\nContinue routine monitoring.\n"
+    },
+    {
+        "patient_id": "P00009",
+        "symptoms": [
+            "swelling",
+            "cough",
+            "abdominal pain"
+        ],
+        "medications_mentioned": [
+            "Atorvastatin",
+            "Metformin",
+            "Omeprazole",
+            "Lisinopril"
+        ],
+        "interactions": [],
+        "risk_score": 0.0,
+        "risk_level": "Unknown (Model Not Loaded)",
+        "priority": "Low",
+        "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00009\nTimestamp: 2025-12-10T11:09:16.327685\n\nSummary:\nThe patient presents with swelling, cough, abdominal pain. \nRisk Assessment: Unknown (Model Not Loaded) risk of deterioration (Score: 0.00).\nPriority Level: Low\n\nMedication Safety:\nNo significant medication interactions detected.\n\nClinical Recommendation:\nContinue routine monitoring.\n"
+    }
+]

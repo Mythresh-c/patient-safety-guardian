@@ -1,0 +1,36 @@
+{
+    "symptom_out": {
+        "symptoms": [
+            "chest pain",
+            "shortness of breath"
+        ],
+        "medications_mentioned": []
+    },
+    "med_out": {
+        "interactions": [
+            {
+                "pair": [
+                    "Aspirin",
+                    "Warfarin"
+                ],
+                "severity": "High",
+                "explanation": "Increased bleeding risk due to additive antiplatelet/anticoagulant effects.",
+                "recommended_action": "Monitor INR closely; consider alternative."
+            }
+        ],
+        "severity_score": 0.8
+    },
+    "risk_out": {
+        "risk_score": 0.12,
+        "risk_level": "Low"
+    },
+    "priority_out": {
+        "priority": "Medium",
+        "score": 0.42,
+        "reasons": [
+            "Significant medication interactions found.",
+            "Critical symptoms reported."
+        ]
+    },
+    "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P22222\nTimestamp: 2025-12-10T11:18:32.673686\n\nSummary:\nThe patient presents with chest pain, shortness of breath. \nRisk Assessment: Low risk of deterioration (Score: 0.12).\nPriority Level: Medium\n\nMedication Safety:\nDetected 1 interaction(s). \n- Aspirin + Warfarin: High severity. Increased bleeding risk due to additive antiplatelet/anticoagulant effects.\n\nClinical Recommendation:\nReview within 4 hours. Check medication interactions.\n"
+}

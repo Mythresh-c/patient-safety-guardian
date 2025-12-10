@@ -1,0 +1,42 @@
+drug_a,drug_b,severity,mechanism,explanation,recommended_action,source
+sildenafil,nitroglycerin,Critical,Hypotension,"Severe refractory hypotension due to additive vasodilation.",Contraindicated; do not administer nitrates within 24h of sildenafil,FDA
+fluoxetine,phenelzine,Critical,Serotonin Syndrome,"Risk of serotonin syndrome (hypertension, hyperthermia, myoclonus).",Contraindicated; washout period required,BNF
+clozapine,carbamazepine,Critical,Hematologic,Additive risk of agranulocytosis.,Contraindicated,BNF
+colchicine,clarithromycin,Critical,Metabolism,Fatal colchicine toxicity possible in renal/hepatic impairment.,Contraindicated in renal/hepatic impairment,FDA
+midazolam,ritonavir,Critical,Metabolism,Prolonged sedation and respiratory depression.,Contraindicated,FDA
+spironolactone,eplerenone,Critical,Kalemia,Severe hyperkalemia.,Contraindicated,medicinal-guideline
+methotrexate,trimethoprim,Critical,Hematologic,Bone marrow suppression.,Contraindicated,BNF
+aspirin,warfarin,High,Pharmacodynamic,Increased bleeding risk due to additive antiplatelet/anticoagulant effects.,Hold aspirin and consult prescriber,medicinal-guideline
+atorvastatin,clarithromycin,High,Metabolism,Increased rhabdomyolysis risk due to CYP3A4 inhibition.,Stop statin during macrolide course,medicinal-guideline
+lisinopril,spironolactone,High,Kalemia,Hyperkalaemia risk due to additive potassium-sparing effects.,Monitor K+ closely/adjust doses,medicinal-guideline
+methotrexate,penicillin,High,Excretion,Penicillins may reduce the clearance of methotrexate.,Monitor methotrexate levels and toxicity,BNF
+digoxin,amiodarone,High,Metabolism,Amiodarone increases digoxin concentrations.,Reduce digoxin dose by 50%,medicinal-guideline
+ciprofloxacin,theophylline,High,Metabolism,Ciprofloxacin inhibits theophylline metabolism.,Monitor theophylline levels,medicinal-guideline
+tramadol,fluoxetine,High,Serotonin Syndrome,Increased risk of serotonin syndrome and seizures.,Monitor closely; consider alternative analgesic,medicinal-guideline
+lithium,lisinopril,High,Excretion,"ACE inhibitors reduce lithium excretion, increasing toxicity risk.",Monitor lithium levels,medicinal-guideline
+carbamazepine,erythromycin,High,Metabolism,Erythromycin inhibits carbamazepine metabolism.,Monitor carbamazepine levels,medicinal-guideline
+allopurinol,azathioprine,High,Metabolism,Allopurinol inhibits azathioprine metabolism (xanthine oxidase).,Reduce azathioprine dose by 75%,medicinal-guideline
+potassium chloride,spironolactone,High,Kalemia,Severe hyperkalemia risk.,Avoid combination or monitor K+ strictly,medicinal-guideline
+gentamicin,furosemide,High,Ototoxicity,Additive ototoxicity risk.,Monitor hearing and renal function,BNF
+citalopram,ondansetron,High,QT Prolongation,"Additive risk of QT prolongation and Torsades de Pointes.",Monitor ECG; correct electrolytes,medicinal-guideline
+warfarin,amiodarone,High,Metabolism,Amiodarone inhibits warfarin metabolism.,Reduce warfarin dose by 30-50%,medicinal-guideline
+trimethoprim-sulfamethoxazole,warfarin,High,Metabolism,Significant increase in INR and bleeding risk.,Monitor INR; reduce warfarin dose,medicinal-guideline
+tacrolimus,fluconazole,High,Metabolism,Fluconazole inhibits tacrolimus metabolism.,Monitor tacrolimus levels,medicinal-guideline
+rivaroxaban,ketoconazole,High,Metabolism,Increased rivaroxaban exposure and bleeding risk.,Avoid concurrent use,medicinal-guideline
+domperidone,erythromycin,High,QT Prolongation,Risk of QT prolongation.,Contraindicated,BNF
+haloperidol,levodopa,High,Pharmacodynamic,Antagonism of levodopa effects.,Avoid in Parkinson's disease,medicinal-guideline
+bisoprolol,verapamil,High,Pharmacodynamic,Risk of bradycardia and heart block.,Avoid IV verapamil; monitor ECG,medicinal-guideline
+metoprolol,insulin,Medium,Masked Hypoglycemia,"Beta-blockers may mask tachycardia associated with hypoglycemia.",Increase glucose monitoring,medicinal-guideline
+ibuprofen,losartan,Medium,Renal,Reduced antihypertensive effect and risk of acute kidney injury.,Avoid NSAIDs in elderly on ARBs,medicinal-guideline
+levothyroxine,calcium carbonate,Medium,Absorption,Calcium reduces absorption of levothyroxine.,Separate doses by at least 4 hours,medicinal-guideline
+albuterol,propranolol,Medium,Pharmacodynamic,Non-selective beta-blockers antagonize bronchodilation.,Use cardioselective beta-blocker if needed,medicinal-guideline
+metformin,contrast dye,Medium,Lactic Acidosis,Risk of lactic acidosis in renal impairment.,Hold metformin prior to procedure,medicinal-guideline
+doxycycline,calcium,Medium,Absorption,Calcium binds tetracyclines reducing absorption.,Separate doses by 2 hours,medicinal-guideline
+clopidogrel,omeprazole,Medium,Metabolism,Omeprazole inhibits CYP2C19 activation of clopidogrel.,Use pantoprazole instead,FDA
+simvastatin,amlodipine,Medium,Metabolism,Increased risk of myopathy.,Limit simvastatin dose to 20mg/day,medicinal-guideline
+vancomycin,piperacillin-tazobactam,Medium,Nephrotoxicity,Increased risk of acute kidney injury.,Monitor creatinine daily,medicinal-guideline
+phenytoin,valproic acid,Medium,Protein Binding,Displacement of phenytoin from protein binding sites.,Monitor free phenytoin levels,medicinal-guideline
+dabigatran,verapamil,Medium,P-gp Inhibition,Increased dabigatran exposure.,Reduce dabigatran dose,medicinal-guideline
+fentanyl,erythromycin,Medium,Metabolism,Increased fentanyl effects and respiratory depression.,Monitor respiratory status,medicinal-guideline
+prednisolone,ibuprofen,Medium,GI Toxicity,Increased risk of GI ulceration and bleeding.,Use PPI prophylaxis if necessary,medicinal-guideline
+warfarin,acetaminophen,Low,Metabolism,May increase INR with high/chronic doses of acetaminophen.,Monitor INR if high doses used,medicinal-guideline

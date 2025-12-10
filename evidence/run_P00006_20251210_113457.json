@@ -1,0 +1,24 @@
+{
+    "symptom_out": {
+        "symptoms": [
+            "abdominal pain",
+            "palpitations",
+            "headache"
+        ],
+        "medications_mentioned": []
+    },
+    "med_out": {
+        "interactions": [],
+        "severity_score": 0.0
+    },
+    "risk_out": {
+        "risk_score": 0.14,
+        "risk_level": "Low"
+    },
+    "priority_out": {
+        "priority": "Low",
+        "score": 0.13,
+        "reasons": []
+    },
+    "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00006\nTimestamp: 2025-12-10T11:09:16.327685\n\nSummary:\nThe patient presents with abdominal pain, palpitations, headache. \nRisk Assessment: Low risk of deterioration (Score: 0.14).\nPriority Level: Low\n\nMedication Safety:\nNo significant medication interactions detected.\n\nClinical Recommendation:\nContinue routine monitoring.\n"
+}

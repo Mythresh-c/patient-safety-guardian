@@ -1,0 +1,33 @@
+timestamp,patient_id,priority,reason,assigned_to,team,escalated_by
+2025-12-10T11:59:06.735990,P00000,High,High deterioration risk detected.,Dr. Breath,Respiratory,System
+2025-12-10T11:59:06.750857,P00001,Low,Critical symptoms reported.,Routine Queue,General Ward,System
+2025-12-10T11:59:06.760490,P00002,Low,,Routine Queue,General Ward,System
+2025-12-10T11:59:06.771261,P00003,Low,,Routine Queue,General Ward,System
+2025-12-10T11:59:06.780695,P00004,Low,,Routine Queue,General Ward,System
+2025-12-10T11:59:06.788421,P00005,High,High deterioration risk detected.,Dr. Breath,Respiratory,System
+2025-12-10T11:59:06.797452,P00006,Low,,Routine Queue,General Ward,System
+2025-12-10T11:59:06.805527,P00007,Low,Critical symptoms reported.,Routine Queue,General Ward,System
+2025-12-10T11:59:06.815733,P00008,Low,,Routine Queue,General Ward,System
+2025-12-10T11:59:06.824257,P00009,Low,Critical symptoms reported.,Routine Queue,General Ward,System
+2025-12-10T11:59:17.173877,P00000,High,High deterioration risk detected.,Dr. Breath,Respiratory,System
+2025-12-10T11:59:17.313751,P00000,High,High deterioration risk detected.,Dr. Breath,Respiratory,System
+2025-12-10T11:59:17.485127,P00000,High,High deterioration risk detected.,Dr. Breath,Respiratory,System
+2025-12-10T11:59:45.362862,P00001,Low,Critical symptoms reported.,Routine Queue,General Ward,System
+2025-12-10T12:00:08.043068,P00003,Low,,Routine Queue,General Ward,System
+2025-12-10T12:00:18.015378,P00004,Low,,Routine Queue,General Ward,System
+2025-12-10T12:00:23.095127,P00005,High,High deterioration risk detected.,Dr. Breath,Respiratory,System
+2025-12-10T12:08:26.033076,P00000,Low,,Routine Queue,General Ward,System
+2025-12-10T13:00:14.379828,P00001,High,Clinical Rule Alert Triggered,Dr. Breath,Respiratory,System
+2025-12-10T13:00:43.165228,P00002,Critical,High deterioration risk detected.; Significant medication interactions found.,Dr. Breath,Respiratory,System
+2025-12-10T13:01:07.005014,P00003,Low,Significant medication interactions found.,Routine Queue,General Ward,System
+2025-12-10T13:02:50.293343,P00002,Critical,High deterioration risk detected.; Significant medication interactions found.,Dr. Lung,Respiratory,System
+2025-12-10T13:11:31.434655,P00000,Low,,Routine Queue,General Ward,System
+2025-12-10T13:11:31.449180,P00001,High,Clinical Rule Alert Triggered,Dr. Breath,Respiratory,System
+2025-12-10T13:11:31.464140,P00002,Critical,High deterioration risk detected.; Significant medication interactions found.,Dr. Lung,Respiratory,System
+2025-12-10T13:11:31.472930,P00003,Low,Significant medication interactions found.,Routine Queue,General Ward,System
+2025-12-10T13:11:31.481379,P00004,Low,Critical symptoms reported.,Routine Queue,General Ward,System
+2025-12-10T13:11:31.488377,P00005,Low,,Routine Queue,General Ward,System
+2025-12-10T13:11:31.501659,P00006,Medium,Significant medication interactions found.; Critical symptoms reported.,Routine Queue,General Ward,System
+2025-12-10T13:11:31.508769,P00007,High,High deterioration risk detected.; Clinical Rule Alert Triggered,Dr. Patel,Critical Care,System
+2025-12-10T13:11:31.519996,P00008,Low,Critical symptoms reported.,Routine Queue,General Ward,System
+2025-12-10T13:11:31.530536,P00009,Low,Critical symptoms reported.,Routine Queue,General Ward,System

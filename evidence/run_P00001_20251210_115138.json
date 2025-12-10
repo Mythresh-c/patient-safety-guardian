@@ -1,0 +1,32 @@
+{
+    "symptom_out": {
+        "symptoms": [
+            "headache",
+            "cough"
+        ],
+        "medications_mentioned": []
+    },
+    "med_out": {
+        "interactions": [],
+        "severity_score": 0.0
+    },
+    "risk_out": {
+        "risk_score": 0.96,
+        "risk_level": "High"
+    },
+    "priority_out": {
+        "priority": "High",
+        "score": 0.62,
+        "reasons": [
+            "High deterioration risk detected."
+        ]
+    },
+    "routing_out": {
+        "assigned_to": "Dr. Jones",
+        "team": "Internal Medicine",
+        "escalated": true,
+        "action": "Immediate Review",
+        "reason": "Patient priority is High"
+    },
+    "explanation": "\nPatient Safety Guardian Report\n------------------------------\nPatient ID: P00001\nTimestamp: 2025-12-10T11:09:16.327685\n\nSummary:\nThe patient presents with headache, cough. \nRisk Assessment: High risk of deterioration (Score: 0.96).\nPriority Level: High\n\nMedication Safety:\nNo significant medication interactions detected.\n\nClinical Recommendation:\nUrgent review recommended. Monitor for deterioration.\n\nAssigned to Dr. Jones (Internal Medicine) \u2014 Action: Immediate Review"
+}
